@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 2</title>
+</head>
+<style>
+
+ *{
+ margin: 0;
+ padding: 0;
+ box-sizing: borderbox;
+ 
+}
+
+nav{
+    height: 10vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    padding-left : 5px;
+    padding-right : 5px;
+}
+
+ul li
+
+{
+    display: inline;
+    margin-left: 20px;
+padding: 8px;
+border-radius: 3px;
+}
+
+ul li:hover{
+background-color: rgb(245, 189, 219);
+
+
+}
+
+.main{
+    height: 75vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    background-color: rgb(243, 181, 181);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.fruitimg{
+    background-image: url(./fruit.png); 
+    height: 50vh;
+    width: 20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+    
+  
+}
+
+.content{
+
+    height: 50vh;
+    width: 40vw;
+    padding: 2rem;
+    padding-top: 3rem;
+
+}
+
+.content p{
+
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.content button{
+    color: white;
+    background-color: rgb(251, 56, 160);
+    border: 1px solid rgb(251, 7, 137);
+padding: 7px;
+margin-top: 1rem;
+font-weight: 700;
+box-shadow: 3px 3px 3px 3px black;
+}
+
+.content button:hover {
+background-color: rgb(249, 170, 221);   
+color: black; 
+
+
+}
+
+.bottomline{
+font-size: 18px;
+margin-left: 6rem;
+margin-top: 1rem;
+}
+.Brand{
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+</style>
+<body>
+ <nav>
+
+    <div class="products">
+    <ul>
+        <li class="Brand">Soylent</li>
+        <li>Drink</li>
+        <li>Cafe</li>
+        <li>Powder</li>
+        <li>Products</li>
+    </ul>
+</div>
+
+<div class="shop">
+
+    <ul>
+        <li>Login</li>
+        <li>Refer</li>
+        <li>Cart(0)</li>
+    </ul>
+
+</div>
+</nav>
+
+
+<div class="main">
+  <div class="fruitimg"> </div>
+  <div class="content"> 
+    <h1>Fruit is back</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, adipisci tempora vero dignissimos blanditiis sit, praesentium et provident voluptatum delectus doloremque! Quas obcaecati dolorem quibusdam quo?</p>
+<button>Shop now</button>
+</div>
+</div>
+
+<p class="bottomline">Now two bottles to serve you <a href="#"> Click here </a> to learn about our new bottles</p>
+<br>
+<hr>
+
+</body>
+</html>
